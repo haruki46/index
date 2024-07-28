@@ -1,22 +1,37 @@
 
+    /*Loding Font from Google Font*/
     @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
     
     body{
         font-style: "Kanit";
         font-family: "Kanit", sans-serif;
-        background-color: #B6C7AA;
+        color: white;
+        background-image: url("/image/anim/bg.gif");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
     }
     .School{
         font-size: x-large;
         margin-left: auto;
         margin-right: auto;
-
     }
     table,th,td{
-        border: 1px solid black;
+        border: 1px solid whitesmoke;
         border-radius: 10px;
         text-align: center;
     }
+    .space{
+        border: 1px;
+    }
+    .bgtable{
+        border:  1px;
+        width: 1000;
+        background: rgba(0,0,0,0.75)
+    }
+    
+    /*Menu Icon*/
     .Icon{
         position: relative;
         left: auto;
@@ -37,4 +52,37 @@
         position: relative;
         font-weight: bold;
     }
-   
+    .Menu{
+        color: white;
+        font-size: x-large;
+    }
+    a:link,a:visited,a:active{
+        color: inherit;
+        font-style: normal;
+        text-decoration: none;
+    }
+    a:hover{
+        color: white;
+    }
+    .text{
+        color:white;
+        font-size: xx-large;
+    }
+    .dark-mode.bgtable {
+        border:  1px;
+        width: 1000;
+        background: rgba(0,0,0,0.75);
+        color:white;
+      }
+    .white-mode.bgtable {
+        border:  1px;
+        width: 1000;
+        background: rgba(255, 255, 255, 0.75);
+        color:white; 
+      }
+    .banner{
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+    }
